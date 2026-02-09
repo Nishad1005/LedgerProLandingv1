@@ -236,7 +236,7 @@ const DecisionMakers: React.FC = () => {
               </span>
            </div>
            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-textMain mb-6 leading-tight tracking-tight">
-             Built for <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-brandLight">Decision-Makers</span>
+             Be <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-brandLight">Audit-Ready.</span> Every Day.
            </h2>
            <p className="text-xl text-textLight leading-relaxed">
              LedgerPRO isn't one-size-fits-all. It adapts to give every stakeholder the specific visibility and control they need to succeed.

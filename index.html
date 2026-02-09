@@ -8,25 +8,94 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#37ca37',
+              secondary: '#188bf6',
+              brand: '#6239EC',
+              brandDark: '#4A2BC2',
+              brandLight: '#8B6DFF',
+              dark: '#1C1041',
+              light: '#F8F6FF',
+              faqBg: '#F3F0FF',
+              textMain: '#2A2A2A',
+              textLight: '#555555',
+              destructive: '#ff4444',
+              'destructive-foreground': '#ffffff',
+              card: 'rgba(255, 255, 255, 0.9)',
+              'card-foreground': '#000000',
+              popover: '#ffffff',
+              'popover-foreground': '#000000',
+              muted: '#f1f5f9',
+              'muted-foreground': '#64748b',
+              accent: '#f1f5f9',
+              'accent-foreground': '#0f172a',
+              input: '#e2e8f0',
+              ring: '#6239EC',
+            },
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+              tool: ['Inter', 'sans-serif'],
+            },
+            boxShadow: {
+              'soft': '0 10px 40px -10px rgba(0,0,0,0.08)',
+              'glow': '0 0 20px rgba(98, 57, 236, 0.3)',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'blob': 'blob 7s infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-15px)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              blob: {
+                "0%": { transform: "translate(0px, 0px) scale(1)" },
+                "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+                "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+                "100%": { transform: "translate(0px, 0px) scale(1)" }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+    </style>
   <script type="importmap">
 {
   "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
     "react/": "https://esm.sh/react@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.3",
-    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
-    "clsx": "https://esm.sh/clsx@^2.1.1",
-    "tailwind-merge": "https://esm.sh/tailwind-merge@^3.4.0",
-    "vite": "https://esm.sh/vite@^7.3.1",
-    "class-variance-authority": "https://esm.sh/class-variance-authority@^0.7.1",
-    "@radix-ui/react-slot": "https://esm.sh/@radix-ui/react-slot@^1.2.4"
+    "clsx": "https://esm.sh/clsx",
+    "tailwind-merge": "https://esm.sh/tailwind-merge",
+    "class-variance-authority": "https://esm.sh/class-variance-authority",
+    "@radix-ui/react-slot": "https://esm.sh/@radix-ui/react-slot"
   }
 }
 </script>
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
