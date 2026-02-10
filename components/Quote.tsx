@@ -8,7 +8,7 @@ const Quote: React.FC = () => {
       
       <div className="max-w-[900px] mx-auto px-4 flex flex-col gap-8 relative z-10">
         <h2 className="text-3xl md:text-5xl text-textMain font-bold tracking-tight">
-          The problem isn’t fraud <span className="text-brand decoration-wavy underline decoration-brand/30 underline-offset-8">The problem is missing evidence.</span>.
+          The problem isn’t <span className="text-primary font-extrabold animate-strong-pulse drop-shadow-[0_0_10px_rgba(55,202,55,0.5)]">fraud</span> <span className="text-brand decoration-wavy underline decoration-brand/30 underline-offset-8">The problem is missing evidence.</span>.
         </h2>
       </div>
     </section>

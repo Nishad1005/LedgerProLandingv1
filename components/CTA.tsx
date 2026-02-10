@@ -115,13 +115,9 @@ const CTA: React.FC<CTAProps> = ({ onOpenBooking }) => {
           {/* Text Content - Right Side */}
           <div className="w-full md:w-1/2 text-center md:text-left text-white">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 tracking-tight">
-              Ready to Streamline <br className="hidden lg:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">Your Business?</span>
+              Be Audit-Ready. <br className="hidden lg:block" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">Everyday.</span>
             </h2>
-            
-            <p className="text-lg md:text-xl text-blue-50/90 leading-relaxed max-w-xl mx-auto md:mx-0 mb-8 font-light">
-               LedgerPRO helps organizations streamline document conversion, ensuring efficient data processing, compliance, and seamless integration.
-            </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button 
