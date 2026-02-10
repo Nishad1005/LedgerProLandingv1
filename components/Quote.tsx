@@ -8,10 +8,7 @@ const Quote: React.FC = () => {
       
       <div className="max-w-[900px] mx-auto px-4 flex flex-col gap-8 relative z-10">
         <h2 className="text-3xl md:text-5xl text-textMain font-bold tracking-tight">
-          Life is too short to drown in <span className="text-brand decoration-wavy underline decoration-brand/30 underline-offset-8">paperwork</span>.
-        </h2>
-        <h2 className="text-xl md:text-2xl text-textLight font-light leading-relaxed max-w-3xl mx-auto">
-          Paper piles slow you down. Don’t let them keep you from being efficient. You deserve better.
+          The problem isn’t fraud <span className="text-brand decoration-wavy underline decoration-brand/30 underline-offset-8">The problem is missing evidence.</span>.
         </h2>
       </div>
     </section>

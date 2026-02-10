@@ -39,14 +39,17 @@ const Differences: React.FC = () => {
           {/* Content Column */}
           <div className="w-full md:w-1/2 flex flex-col justify-center">
             <div className="inline-block mb-4">
-              <span className="bg-brand/10 text-brand px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider">Why Choose Us</span>
+              <span className="bg-brand/10 text-brand px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider">The Real Problem</span>
             </div>
             <h2 className="text-4xl md:text-5xl mb-6 font-bold text-textMain leading-tight">
-              What Makes Us <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-brandLight">Different</span>
+              Most Losses Are Approved <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand to-brandLight">  -Not Stolen</span>
             </h2>
             <div className="border-l-4 border-brand/30 pl-6 py-1 mb-10">
               <p className="text-textLight text-lg leading-relaxed">
-                Businesses should run efficiently—no one should have to waste hours searching for a single piece of paper when they could be focusing on more important tasks.
+                Once an entry hits the books, it becomes “financial truth”.
+                Recovery is slow. Audits get messy. Leadership finds out too late.
+                With Ledger Pro, real-time controls, smart validations, and continuous monitoring stops revenue leakages, fraud, and inventory losses before they become audit findings.
+ 
               </p>
             </div>
 

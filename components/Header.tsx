@@ -85,7 +85,7 @@ const Header: React.FC<HeaderProps> = ({ onOpenBooking }) => {
 
       {/* Mobile Nav Overlay */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-[#1C1041]/95 backdrop-blur-xl border-t border-white/10 animate-fade-in-up shadow-2xl h-screen">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-[#1C1041]/95 backdrop-blur-xl border-t border-white/10 animate-slide-down-fade shadow-2xl h-screen">
           <nav className="flex flex-col p-6 space-y-4 items-center justify-center h-full pb-32">
             {navItems.map((item) => (
               <a

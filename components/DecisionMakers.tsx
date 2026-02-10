@@ -218,7 +218,7 @@ const DecisionMakers: React.FC = () => {
   }
 
   return (
-    <section className="py-32 bg-[#F8F9FC] relative overflow-hidden">
+    <section className="py-24 bg-[#F8F9FC] relative overflow-hidden">
       
       {/* Subtle Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(0,0,0,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(0,0,0,0.02)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none"></div>

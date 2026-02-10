@@ -13,15 +13,12 @@ const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
         {/* Text Content */}
         <div className="w-full md:w-1/2 flex flex-col gap-6 text-center md:text-left animate-fade-in-up z-30">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-white drop-shadow-lg tracking-tight">
-            Digitize your paper files with <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">LedgerPRO</span>
+           Prevention is better than<span className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-white">Cure</span>
           </h1>
           <div className="text-white text-lg md:text-xl font-medium opacity-95 drop-shadow-md space-y-4">
             <h3 className="bg-white/10 backdrop-blur-sm inline-block px-4 py-2 rounded-lg border border-white/10">
-              Businesses waste up to <span className="text-green-300 font-bold">30%</span> of their time searching for lost documents.
+              LedgerPro prevents <span className="text-green-300 font-bold">Losses</span> before they hit your books.
             </h3>
-            <p className="font-light text-white/90 leading-relaxed">
-              With DataBrilliance, you’ll save time every single day and finally feel in control of your workflow.
-            </p>
           </div>
           
           <div className="mt-6 flex justify-center md:justify-start">
